@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores de mi app, sacados de la imagen principal -->
+    <color name="fondo">#0E1512</color>
+    <color name="fondo_claro">#1B2A22</color>
+    <color name="principal">#2F5D3F</color>
+    <color name="dorado">#C9A227</color>
+    <color name="azul_magia">#5BC0EB</color>
+    <color name="texto">#E8E4D4</color>
+    <color name="texto_suave">#8F9A92</color>
+    <color name="verde_llamada">#2ECC71</color>
 </resources>

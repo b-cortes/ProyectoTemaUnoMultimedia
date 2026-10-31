@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/fondo"
+    tools:context=".ConfigActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="24dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tvConfigTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/config_titulo"
+            android:textColor="@color/dorado"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Campo nombre -->
+        <TextView
+            android:id="@+id/tvLabelNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.15"
+            android:text="@string/label_nombre"
+            android:textColor="@color/dorado"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/principal"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName"
+            android:textColor="@color/texto"
+            android:textColorHint="@color/texto_suave" />
+
+        <!-- Campo teléfono -->
+        <TextView
+            android:id="@+id/tvLabelTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.15"
+            android:text="@string/label_telefono"
+            android:textColor="@color/azul_magia"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/principal"
+            android:hint="@string/hint_telefono"
+            android:inputType="phone"
+            android:textColor="@color/texto"
+            android:textColorHint="@color/texto_suave" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/dorado"
+            android:text="@string/btn_guardar"
+            android:textColor="@color/fondo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

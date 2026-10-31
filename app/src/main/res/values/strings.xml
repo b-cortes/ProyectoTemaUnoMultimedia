@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">ProyectoTema1BrianCortes</string>
+    <string name="app_name">Práctica Intents Brian</string>
+
+    <!-- Configuración -->
+    <string name="config_titulo">Configuración</string>
+    <string name="config_subtitulo">Antes de entrar, dime quién eres y a quién quieres llamar</string>
+    <string name="hint_nombre">Tu nombre</string>
+    <string name="hint_telefono">Teléfono al que llamar</string>
+    <string name="btn_guardar">Guardar y entrar</string>
+    <string name="label_nombre">NOMBRE</string>
+    <string name="label_telefono">TELÉFONO</string>
+    <string name="config_pie">Los datos se guardan en el móvil</string>
+
+    <!-- Pantalla principal -->
+    <string name="bienvenida">Bienvenido a mi app</string>
+    <string name="imagen_principal">Imagen principal</string>
+    <string name="llamada">Llamada</string>
+    <string name="web">Web</string>
+    <string name="alarma">Alarma</string>
+    <string name="compartir">Compartir</string>
+    <string name="configuracion">Configuración</string>
+
+    <!-- Llamada y web -->
+    <string name="llamar">Llamar</string>
+    <string name="volver">Volver</string>
+    <string name="hint_url">Ejemplo: www.marca.com</string>
+    <string name="ir_web">Ir a la web</string>
+    <string name="url_titulo">Abrir una web</string>
+    <string name="label_url">DIRECCIÓN WEB</string>
+    <string name="url_nota">No hace falta poner https://, se añade solo</string>
+    <string name="volver_flecha">← Volver</string>
 </resources>
